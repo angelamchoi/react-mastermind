@@ -4,6 +4,7 @@ import GameBoard from './components/GameBoard/GameBoard';
 import ColorPicker from './components/ColorPicker/ColorPicker';
 import GameTimer from './components/GameTimer/GameTimer';
 import NewGameButton from './components/NewGameButton/NewGameButton';
+import GuessRow from './components/GuessRow/GuessRow'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <ColorPicker />
         <GameTimer />
         <NewGameButton />
+        <GuessRow num={1} />
       </div>
     );
   }
